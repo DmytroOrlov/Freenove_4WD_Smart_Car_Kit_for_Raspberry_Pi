@@ -1,0 +1,19 @@
+item {
+    id: 1
+    name: 'doll'
+}
+
+item {
+    id: 2
+    name: 'cuddlytoy'
+}
+
+item {
+    id: 3
+    name: 'vehicle'
+}
+
+
+
+
+
