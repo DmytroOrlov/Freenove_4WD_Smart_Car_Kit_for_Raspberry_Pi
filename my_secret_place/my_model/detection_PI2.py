@@ -19,6 +19,12 @@ for dir in [DATA_DIR, MODELS_DIR]:
 #!python -m pip install --upgrade pip
 
 
+# In[124]:
+
+
+get_ipython().system('python -V')
+
+
 # ## Load the model
 
 # In[108]:
@@ -189,7 +195,7 @@ def detection_func(image_np):
     output = list(zip(classes, scores))
     result = list(filter(lambda x: x[1] > 0.1, output))
     
-   # print(result)
+    print(result)
     
     
 #    #display  #please, hide it for pi
